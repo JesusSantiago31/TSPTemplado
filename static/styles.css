@@ -1,0 +1,180 @@
+/* Fondo general y tipografía */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Degradado azul oscuro */
+  color: #ffffff;
+}
+
+/* Encabezado */
+h2 {
+  text-align: center;
+  color: #00c3ff;
+  margin-bottom: 2rem;
+}
+
+/* Formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 195, 255, 0.3);
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #cceeff;
+}
+
+/* Entradas y selects */
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #00c3ff, #0077be);
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0077be, #00c3ff);
+  transform: scale(1.03);
+}
+
+
+/* Encabezado principal */
+h2 {
+  text-align: center;
+  color: #00c3ff;
+  margin-top: 2rem;
+}
+
+/* Lista ordenada (ruta) */
+ol {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 195, 255, 0.2);
+  list-style-type: decimal;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* Elementos de la lista */
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Subtítulo (distancia total) */
+h3 {
+  text-align: center;
+  color: #a4dfff;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+/* Enlace de volver */
+a {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  width: max-content;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #00c3ff, #0077be);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background: linear-gradient(to right, #0077be, #00c3ff);
+  transform: scale(1.05);
+}
+
+/* Encabezado principal */
+h2 {
+  text-align: center;
+  color: #00c3ff;
+  margin-top: 2rem;
+}
+
+/* Lista ordenada (ruta) */
+ol {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 195, 255, 0.2);
+  list-style-type: decimal;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+/* Elementos de la lista */
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Subtítulo (distancia total) */
+h3 {
+  text-align: center;
+  color: #a4dfff;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+/* Enlace de volver */
+a {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  width: max-content;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #00c3ff, #0077be);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background: linear-gradient(to right, #0077be, #00c3ff);
+  transform: scale(1.05);
+}
+
+#aaa{
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+}
