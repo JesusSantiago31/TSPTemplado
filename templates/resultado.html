@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado TSP</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">  
+</head>
+<body>
+    <h2>Ruta Óptima</h2>
+    <ol>
+        {% for ciudad in ruta %}
+            <li>{{ ciudad }}</li>
+        {% endfor %}
+    </ol>
+    <h3>Distancia Total: {{ distancia }} unidades</h3>
+
+    <!-- Botón que simplemente recarga la página -->
+    <button onclick="location.reload()" id="aaa">Calcular otra ruta</button>
+
+    <br><br>
+
+    <a href="/">Volver al formulario</a>
+</body>
+</html>
